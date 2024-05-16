@@ -27,13 +27,13 @@ elif(app_mode=="About Project"):
     st.header("About Project")
     st.subheader("About Dataset")
     st.text("This dataset contains images of the following food items:")
-    st.code("Fruits- Banana, Apple, Orange, Watermelon, Pineapple.")
-    st.code("Vegetables- Carrot, Corn, Tomato, Eggplant, Lemon.")
+    st.code("Fruits- banana, apple, pear, grapes, orange, kiwi, watermelon, pomegranate, pineapple, mango.")
+    st.code("Vegetables- cucumber, carrot, capsicum, onion, potato, lemon, tomato, raddish, beetroot, cabbage, lettuce, spinach, soy bean, cauliflower, bell pepper, chilli pepper, turnip, corn, sweetcorn, sweet potato, paprika, jalepeño, ginger, garlic, peas, eggplant.")
     st.subheader("Content")
     st.text("This dataset contains three folders:")
-    st.text("1. train (100 images each)")
-    st.text("2. test (10 images each)")
-    st.text("3. validation (10 images each)")
+    st.text("1. train (345 images each)")
+    st.text("2. test (37 images each)")
+    st.text("3. validation (37 images each)")
 
 #Prediction Page
 elif(app_mode=="Prediction"):
