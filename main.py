@@ -18,7 +18,7 @@ app_mode = st.sidebar.selectbox("Select Page",["Home","About Project","Predictio
 
 #Main Page
 if(app_mode=="Home"):
-    st.header("FRUITS & VEGETABLES RECOGNITION SYSTEM")
+    st.header("CROPS RECOGNITION & SORTING SYSTEM")
     image_path = "home_img.jpg"
     st.image(image_path)
 
@@ -34,6 +34,12 @@ elif(app_mode=="About Project"):
     st.text("1. train (345 images each)")
     st.text("2. test (37 images each)")
     st.text("3. validation (37 images each)")
+    st.subheader("Members:")
+    st.text("Guanizo, Rcel James")
+    st.text("Lagao, Miles Joshua")
+    st.text("Laxamana, Abigail")
+    st.text("Loreno, Eric H.")
+    st.text("Mallari, Ashley")
 
 #Prediction Page
 elif(app_mode=="Prediction"):
